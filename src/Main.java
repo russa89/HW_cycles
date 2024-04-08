@@ -40,8 +40,8 @@ public class Main {
         int moneySaving = 29000;
         int totalSaving = 0;
         for (int m = 1; m <= 12; m++){
-            totalSaving = totalSaving + totalSaving/100;
             totalSaving = totalSaving + moneySaving;
+            totalSaving = totalSaving + totalSaving/100;
             System.out.println("Месяц " + m + " - сумма накоплений равна " + totalSaving);
     }
         System.out.println("\nЗадача 10");
